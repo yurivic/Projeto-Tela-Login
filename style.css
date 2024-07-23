@@ -3,7 +3,7 @@ body {
 }
 
 body * {
-  font-family: "Bona Nova SC", serif;
+  font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -11,10 +11,10 @@ body * {
 #principal {
   border: 4px solid black;
   width: 393px;
-  height: 752px;
+  height: 852px;
   margin: 56px auto 0;
   padding: 24px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 50px;
 }
 
@@ -58,6 +58,12 @@ body * {
   background-color: #DFAEAE;
 }
 
+.email {
+  position: relative;
+  top: 5px;
+  left: 250px;
+}
+
 .five {
   list-style: none;
   position: relative;
@@ -76,18 +82,96 @@ body * {
   border-radius: 10px;
   padding: 10px;
   background-color: #DFAEAE;
-  display: block;
-
 }
 
-.aberto {
+.senha {
   position: relative;
   top: 5px;
-  left: 218px;
+  left: 250px;
 }
 
 .juntos {
   display: flex;
   list-style: none;
+  position: relative;
+  justify-content: space-around; 
+  font-size: 15px;
+  font-weight: bold;
+  top: 5px;
+  padding-left: 4px;
+  /* border: 2px solid red; */
 }
 
+.caixa {
+  list-style: none;
+  padding: 1px;
+  margin: 50px;
+  position: relative;
+  right: 40px;
+  bottom: 72px;
+  border-radius: 7px;
+  background-color: #cf5c5c;
+  width: 29px;
+  height: 28px;
+}
+
+#cadastro {
+  display: flex;
+  justify-content: space-around;
+}
+
+.branco {
+ transform: translateY(-155%);
+  list-style: none;
+  border: 2px solid black;
+  color: red;
+  width: 171px;
+  height: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 29px;
+}
+
+.vermelho {
+  transform: translateY(-155%);
+  list-style: none;
+  border: 2px solid red;
+  background-color: red;
+  color: white;
+  width: 171px;
+  height: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 7px;
+}
+
+#final {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transform: translateY(-220%);
+  padding: 2px;
+}
+
+ .facebook {
+  width: 50px;
+  height: 50px;
+} 
+
+.google {
+  width: 50px;
+  height: 50px;
+}
+
+.position {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 30px;
+}
