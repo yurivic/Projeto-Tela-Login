@@ -1,5 +1,7 @@
 body {
-  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover
+  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+  font-size: 100%;
+  list-style-type: none;
 }
 
 body * {
@@ -196,4 +198,13 @@ input[type="password"] {
   justify-content: space-evenly;
   position: relative;
   bottom: 30px;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
